@@ -3,7 +3,7 @@ import Header from "./components/layout/Header";
 import "./globals.css";
 import { Inter } from "next/font/google";
 
-const inter = Inter({ weight: ["400", "500", "700"] });
+const inter = Inter({ subsets: ["latin"], weight: ["400", "500", "700"] });
 
 export default function RootLayout({
   children,
