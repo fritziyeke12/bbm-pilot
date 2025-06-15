@@ -1,0 +1,15 @@
+.bio {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  column-gap: 20px;
+  grid-area: bio;
+}
+
+.logo {
+  justify-self: end;
+  grid-column: 2/3;
+}
+
+.text {
+  align-self: center;
+}
