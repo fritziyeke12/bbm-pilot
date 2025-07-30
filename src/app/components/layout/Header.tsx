@@ -6,8 +6,6 @@ export default function Header() {
     <header className="top-header">
       <span>Menu</span>
       <span>
-        {/* <h1>TEAM BBM</h1>
-        <h2>ONLINE FITNESS COACHING</h2> */}
         <Image
           src="/bbm-header.PNG"
           alt="Team BBM, Online Fitness Coaching"

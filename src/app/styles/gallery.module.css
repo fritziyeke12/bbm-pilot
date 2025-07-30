@@ -1,0 +1,17 @@
+.gallery {
+  width: 60%;
+
+  grid-area: gallery;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.slider {
+  max-width: 60rem; /* 672px */
+
+  /* mx-auto */
+  /* margin-left: auto;
+  margin-right: auto; */
+}

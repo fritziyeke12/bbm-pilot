@@ -12,10 +12,7 @@ export default function Bio() {
         height={400}
       />
       <h1 className={styles.text}>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur ab
-        laboriosam sapiente magni, eos provident assumenda maiores similique eum
-        eaque porro magnam molestias pariatur nesciunt doloribus. Optio ut
-        officiis ipsa!
+        Let me help you achieve your goals. Get to where you want to be 💪
       </h1>
     </div>
   );
