@@ -6,10 +6,10 @@ export default function Bio() {
     <div className={styles.bio}>
       <Image
         className={styles.logo}
-        src="/bbm-logo.PNG"
+        src="/hero-mason.png"
         alt="BBM logo"
-        width={400}
-        height={400}
+        width={320}
+        height={200}
       />
       <h1 className={styles.text}>
         Let me help you achieve your goals. Get to where you want to be 💪
