@@ -16,4 +16,9 @@ body {
   top: 0;
   z-index: 1000;
   margin-bottom: 80px;
+  padding: 0px 20px;
+}
+
+.top-header img {
+  margin: 10px 0;
 }

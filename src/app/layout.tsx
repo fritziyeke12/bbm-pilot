@@ -1,3 +1,4 @@
+import { Provider } from "@/components/ui/provider";
 import Footer from "./components/layout/Footer";
 import Header from "./components/layout/Header";
 import "./globals.css";
@@ -11,11 +12,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <Header />
-        {children}
-        <Footer />
+        <Provider>
+          <Header />
+          {children}
+          <Footer />
+        </Provider>
       </body>
     </html>
   );
