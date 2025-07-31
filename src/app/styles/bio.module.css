@@ -1,6 +1,6 @@
 .bio {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-columns: 1fr 2fr 3fr 1fr;
   column-gap: 20px;
   grid-area: bio;
 }
@@ -8,6 +8,21 @@
 .logo {
   justify-self: end;
   grid-column: 2/3;
+}
+
+.hero-items {
+  display: grid;
+  grid-template-rows: 1fr 0.5fr 1fr;
+  align-self: center;
+  justify-self: start;
+  justify-items: start;
+  align-items: center;
+}
+
+.heading {
+  color: #ffd200;
+  font-size: 40px;
+  font-weight: 550;
 }
 
 .text {

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "../../styles/bio.module.css";
+import { Button } from "@chakra-ui/react";
 
 export default function Bio() {
   return (
@@ -11,9 +12,23 @@ export default function Bio() {
         width={320}
         height={200}
       />
-      <h1 className={styles.text}>
-        Let me help you achieve your goals. Get to where you want to be 💪
-      </h1>
+      <div className={styles["hero-items"]}>
+        <h1 className={styles.heading}>FULFIL YOUR POTENTIAL</h1>
+        <div>
+          <p>
+            My coaching isn’t just a body transformation. It’s a mindset shift.
+          </p>
+          <p>Ready to level up both?</p>
+        </div>
+        <Button
+          rounded={"full"}
+          bg={"#EDDEC2"}
+          color={"black"}
+          _hover={{ bg: "#E3CEA6" }}
+        >
+          LEARN MORE
+        </Button>
+      </div>
     </div>
   );
 }
